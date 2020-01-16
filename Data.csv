@@ -1,0 +1,13 @@
+ParID;ClientID;ParamName
+1;1;Pressure
+2;1;Temperature
+3;2;Level
+4;2;Flowrate
+5;2;Pressure
+6;5;Pressure
+7;5;Temperature
+8;5;Level
+9;5;Flowrate
+10;5;Pressure
+11;4;Pressure
+12;4;Temperature

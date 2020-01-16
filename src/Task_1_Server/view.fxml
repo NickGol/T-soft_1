@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Task_1_Server.ModelView">
+   <center>
+      <TableView fx:id="table" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <columns>
+            <TableColumn fx:id="timeColumn" prefWidth="75.0" text="Время" />
+          <TableColumn fx:id="directionColumn" editable="false" minWidth="-Infinity" prefWidth="75.0" resizable="false" sortable="false" text="Направление" />
+          <TableColumn fx:id="userColumn" editable="false" prefWidth="82.0" sortable="false" text="Пользователь" />
+            <TableColumn fx:id="dataColumn" editable="false" prefWidth="441.0" sortable="false" text="Данные" />
+        </columns>
+      </TableView>
+   </center>
+</BorderPane>
