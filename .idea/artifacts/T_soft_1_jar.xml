@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="T-soft_1:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/T_soft_1_jar</output-path>
+    <root id="archive" name="T-soft_11_jar.jar">
+      <element id="module-output" name="T-soft_1" />
+    </root>
+  </artifact>
+</component>
